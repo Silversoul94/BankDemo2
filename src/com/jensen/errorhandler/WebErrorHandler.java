@@ -1,4 +1,4 @@
-package com.jensen.errorhandler;
+/*package com.jensen.errorhandler;
 
 //hanterar fel meddelan
 
@@ -60,3 +60,4 @@ public class WebErrorHandler extends HttpServlet {
 	      out.write("</body></html>");
 	}
 }
+*/
