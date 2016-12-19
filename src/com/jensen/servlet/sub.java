@@ -39,6 +39,8 @@ public class sub extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
+	
+	//hämtar ut pengar på anväändaren. 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		int newValue2= Integer.parseInt(request.getParameter("newValue2"));
 

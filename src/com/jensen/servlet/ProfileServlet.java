@@ -17,6 +17,12 @@ import javax.servlet.http.HttpSession;
 /**
  * Servlet implementation class ProfileServlet
  */
+/**profileservlet kommer man in bara om man kan logga in.
+ * här får man info på användaren sant hur mycket pengar användaren har.
+ * 
+ * 
+*/
+
 @WebServlet("/ProfileServlet")
 public class ProfileServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;

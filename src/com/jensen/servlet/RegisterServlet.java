@@ -44,6 +44,7 @@ public class RegisterServlet extends HttpServlet {
 		if(lname == null || lname.equals("")){
 			errorMsg = "får ej vara tom.";
 		}
+		//inte klar
 		if(amount == 0){
 			errorMsg = " får ej vara 0.";
 		}

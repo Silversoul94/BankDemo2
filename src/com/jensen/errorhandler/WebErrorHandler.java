@@ -1,7 +1,8 @@
-/*package com.jensen.errorhandler;
+package com.jensen.errorhandler;
 
-//hanterar fel meddelan
+//WebErrorHandler som hanterar felmeddelanden. via web.xml 
 
+//koden är inte färdig än
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -60,4 +61,3 @@ public class WebErrorHandler extends HttpServlet {
 	      out.write("</body></html>");
 	}
 }
-*/

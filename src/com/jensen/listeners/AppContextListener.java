@@ -32,8 +32,6 @@ public class AppContextListener implements ServletContextListener {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-    	
-    	
 		}
     	
     public void contextDestroyed(ServletContextEvent servletContextEvent) {

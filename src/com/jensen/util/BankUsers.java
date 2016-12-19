@@ -1,6 +1,6 @@
 package com.jensen.util;
 
-
+//En klass som representerar en bankuers tabellen
 public class BankUsers {
 
 	private int id;

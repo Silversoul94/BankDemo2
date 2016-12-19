@@ -1,5 +1,5 @@
 package com.jensen.util;
-
+//En klass som representerar bankmoney tabellen
 public class BankMoney {
 	private int id;
 	private int amount;

@@ -18,7 +18,7 @@ import javax.servlet.http.HttpSession;
 import com.jensen.util.BankMoney;
 import com.jensen.util.BankUsers;
 
-// hämtar ut från sql från vart pers och password matchar
+
 
 @WebServlet("/LoginServlet")
 public class LoginServlet extends HttpServlet {
@@ -32,7 +32,10 @@ public class LoginServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
     // in login
-    
+ /*hämtar ut från sql från vart pers och password matchar och sedan 
+  * Sedan skickar fname och lname sant amount till profileservlet
+  * 
+  * */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String pernr = request.getParameter("pernr");
 		String password = request.getParameter("password");

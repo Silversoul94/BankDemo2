@@ -36,7 +36,8 @@ public class Add extends HttpServlet {
 	doPost(request, response);
 		
 	}
-
+//plusar upp användarens pengar.
+	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		int newValue= Integer.parseInt(request.getParameter("newValue"));
 
